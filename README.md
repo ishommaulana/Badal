@@ -2,86 +2,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Undangan Pernikahan</title>
+  <title>Badal Umroh Amanah</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fdfdfd;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
       color: #333;
     }
     header {
-      background: url('https://images.unsplash.com/photo-1549887534-160db97f9d8c') no-repeat center center/cover;
+      background-color: #004d40;
       color: white;
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin: 0.5rem 0;
-    }
-    header p {
-      font-size: 1.2rem;
-    }
-    .content {
-      max-width: 800px;
-      margin: auto;
       padding: 2rem 1rem;
       text-align: center;
     }
-    .couple {
-      font-size: 1.5rem;
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 1rem;
+      background-color: #e0f2f1;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .content {
+      padding: 2rem;
+      background-color: #ffffff;
+    }
+    h2 {
+      color: #004d40;
+    }
+    .box {
+      background: #f1f8f6;
+      padding: 1rem;
       margin: 1rem 0;
+      border-left: 5px solid #004d40;
     }
-    .date {
-      font-size: 1.2rem;
-      margin: 1rem 0;
-    }
-    .location {
-      margin: 1rem 0;
-    }
-    .rsvp {
-      margin: 2rem 0;
-    }
-    .footer {
+    footer {
+      background-color: #004d40;
+      color: white;
       text-align: center;
       padding: 1rem;
-      background-color: #eee;
-      font-size: 0.9rem;
+      margin-top: 2rem;
     }
-    a.btn {
-      background-color: #006d5b;
+    .whatsapp {
+      background-color: #25D366;
       color: white;
-      padding: 0.8rem 1.5rem;
+      padding: 1rem;
+      text-align: center;
       border-radius: 5px;
+      margin-top: 1rem;
+      display: inline-block;
       text-decoration: none;
     }
   </style>
 </head>
-<body>
-  <header>
-    <h1>Undangan Pernikahan</h1>
-    <p>Dengan memohon rahmat dan ridha Allah SWT, kami mengundang Anda untuk hadir dalam acara pernikahan kami</p>
-  </header>  <div class="content">
-    <div class="couple">
-      <strong>Rizki & Aisyah</strong>
-    </div><div class="date">
-  Sabtu, 20 Juli 2025<br>
-  Pukul 10.00 WIB - Selesai
+<body>  <header>
+    <h1>Badal Umroh Amanah</h1>
+    <p>Dilaksanakan oleh Mahasiswa Yaman | Nuansa Hijau Tua & Putih Perak</p>
+  </header>  <section class="gallery">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Masjid_al-Haram_Makkah.JPG/640px-Masjid_al-Haram_Makkah.JPG" alt="Ka'bah">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Haram_Makkah.jpeg/640px-Haram_Makkah.jpeg" alt="Makkah">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Madinah_Prophet%27s_Mosque.jpg/640px-Madinah_Prophet%27s_Mosque.jpg" alt="Masjid Nabawi">
+  </section>  <section class="content">
+    <h2>Apa Itu Badal Umroh?</h2>
+    <div class="box">
+      Badal Umroh adalah melaksanakan Umroh yang diniatkan pahalanya untuk orang lain yang sudah tidak lagi mampu melaksanakan sendiri baik karena telah wafat atau karena udzur sakit atau tua renta yang menyebabkan tidak bisa lagi diharapkan untuk safar (perjalanan) ke Makkah.
+    </div><h2>Dalil Badal Umroh</h2>
+<div class="box">
+  Dari Hadist Abu Razin Al Uqali, dia mendatangi Nabi Muhammad Saw lalu bertanya: "Wahai Rasulullah, ayahku sudah sangat tua, tidak mampu haji, umroh, perjalanan." Beliau Menjawab, "Hajikanlah Ayahmu dan Umrohkanlah". <br><strong>(HR. Ibnu Majah, Tirmidzi, & Nasa'i)</strong>
 </div>
 
-<div class="location">
-  Gedung Serbaguna Al-Furqan<br>
-  Jl. Kenanga No. 45, Bandung
+<h2>Fasilitas & Layanan</h2>
+<ul>
+  <li>InsyaAllah amanah dan terpercaya</li>
+  <li>e-Sertifikat badal umroh</li>
+  <li>Dilaksanakan oleh mahasiswa Hadhramaut, Yaman</li>
+  <li>Satu orang membadalkan satu jiwa</li>
+  <li>Video pelaksanaan badal umroh</li>
+</ul>
+
+<h2>Syarat Pendaftaran</h2>
+<ul>
+  <li>Mengisi data orang yang akan dibadalkan (nama lengkap & nama ayah)</li>
+  <li>Membayar lunas biaya Badal Umroh</li>
+  <li>Status orang yang dibadalkan harus sudah meninggal, sakit parah, atau sangat tua</li>
+</ul>
+
+<h2>Biaya</h2>
+<div class="box">
+  Hanya <strong>1,5 Juta Rupiah</strong> (dari harga sebelumnya 2 Juta Rupiah)
 </div>
 
-<div class="rsvp">
-  <p>Mohon konfirmasi kehadiran Anda melalui tombol berikut:</p>
-  <a class="btn" href="https://wa.me/6281234567890" target="_blank">Konfirmasi via WhatsApp</a>
-</div>
+<h2>Info & Pendaftaran</h2>
+<a class="whatsapp" href="https://wa.me/967780210141" target="_blank">Hubungi via WhatsApp: Arif Maulana</a>
 
-  </div>  <div class="footer">
-    &copy; 2025 Rizki & Aisyah. All rights reserved.
-  </div>
-</body>
+  </section>  <footer>
+    &copy; 2025 Badal Umroh Amanah. Semua Hak Dilindungi.
+  </footer></body>
 </html>
